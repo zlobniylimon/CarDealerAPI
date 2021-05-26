@@ -6,11 +6,12 @@
  - pydantic
 
 **GET** /dealers/ - Read all dealers
+
 ---
 
 **POST** /dealers/ - Create new dealer
 
-Request body:
+JSON Schema:
 ```
 {
   "name":
@@ -25,11 +26,12 @@ Request body:
 ---
 
 **GET** /dealers/{dealer_id} - Read dealer 
+
 ---
 
 **PUT** /dealers/{dealer_id} - Update dealer
 
-Request body:
+JSON Schema:
 ```
 {
   "name": 
@@ -44,14 +46,16 @@ Request body:
 ---
 
 **DELETE** /dealers/{dealer_id} - Delete dealer
+
 ---
 
 **GET** /cars/ - Read all cars
+
 ---
 
 **POST** /cars/ - Create new car
 
-Request body:
+JSON Schema:
 ```
 {
   "model":
@@ -76,11 +80,12 @@ Request body:
 ---
 
 **GET** /cars/{car_id} - Read car
+
 ---
 
 **PUT** /cars/{car_id} - Update car
 
-Request body:
+JSON Schema:
 ```
 {
   "model":
@@ -105,6 +110,7 @@ Request body:
 ---
 
 **DELETE** /cars/{car_id} - Delete car
+
 ---
 
 
