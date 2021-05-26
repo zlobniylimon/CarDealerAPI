@@ -5,6 +5,9 @@
  - SQLalchemy
  - pydantic
 
+
+## Endpoints
+
 **GET** /dealers/ - Read all dealers
 
 ---
